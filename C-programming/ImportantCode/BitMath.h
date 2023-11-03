@@ -1,4 +1,4 @@
-#define setbit(byte, nbit) ((byte) |= (1 << (nbit)))
-#define clearbit(byte, nbit) ((byte) &= (1 << (nbit)))
-#define tagglebit(byte, nbit) ((byte) ^= (1 << (nbit)))
-#define cheackbit(byte, nbit) ((byte) & (1 << (nbit)))
+#define SetBit(Byte, Nbit) ((Byte) |= (1 << (Nbit)))
+#define ClearBit(Byte, Nbit) ((Byte) &= (1 << (Nbit)))
+#define TaggleBit(Byte, Nbit) ((Byte) ^= (1 << (Nbit)))
+#define CheackBit(Byte, Nbit) ((Byte) & (1 << (Nbit)))
